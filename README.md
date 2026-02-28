@@ -12,3 +12,4 @@ Open-source web application for generating secure passwords and checking their s
 - Python
 - Flask
 - zxcvbn
+ce project est teste avec Brozserstack
