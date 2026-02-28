@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Password Security Toolkit</title>
+<style>
+body{background:#121212;color:white;text-align:center;font-family:Arial;padding:40px}
+.card{background:#1e1e1e;padding:20px;border-radius:10px;display:inline-block}
+button,input{margin:5px;padding:8px}
+</style>
+</head>
+<body>
+
+<h1>🔐 Smart Password Security Toolkit</h1>
+
+<div class="card">
+<form method="POST">
+<input type="number" name="length" value="12" min="6"><br>
+<label><input type="checkbox" name="upper" checked> Uppercase</label><br>
+<label><input type="checkbox" name="lower" checked> Lowercase</label><br>
+<label><input type="checkbox" name="digits" checked> Numbers</label><br>
+<label><input type="checkbox" name="symbols" checked> Symbols</label><br>
+<button type="submit">Generate</button>
+</form>
+</div>
+
+{% if password %}
+<h2>{{ password }}</h2>
+<h3>Strength: {{ strength_score }}/4</h3>
+{% endif %}
+
+</body>
+</html>
