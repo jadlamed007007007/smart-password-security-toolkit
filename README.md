@@ -1,4 +1,4 @@
-# 🔐 Smart Password Security Toolkit
+# 🔐 Smart Password Security Toolkit.
 
 Open-source web application for generating secure passwords and checking their strength.
 
@@ -12,5 +12,6 @@ Open-source web application for generating secure passwords and checking their s
 - Python
 - Flask
 - zxcvbn
+
 
 
